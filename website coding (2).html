@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ammar Thaqif | Personal Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+      position: relative;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #ffd700;
+      transition: width 0.3s;
+      margin: auto;
+    }
+
+    nav a:hover::after {
+      width: 100%;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #1e3c72;
+    }
+
+    p, ul {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li::before {
+      content: "🌟 ";
+    }
+
+    .edu-image {
+      display: block;
+      margin: 20px auto;
+      max-width: 80%;
+      border-radius: 12px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact a {
+      color: #0072ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    footer {
+      background-color: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    .divider {
+      height: 4px;
+      background: linear-gradient(to right, #ff6a00, #ee0979);
+      border: none;
+      border-radius: 2px;
+      margin: 60px 0 40px;
+    }
+
+    #about {
+      background-color: #fffde7; /* light yellow */
+    }
+
+    #education {
+      background-color: #e3f2fd; /* light blue */
+    }
+
+    #hobbies {
+      background-color: #fce4ec; /* light pink */
+    }
+
+    #contact {
+      background-color: #ede7f6; /* light purple */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="thaqif.jpg" alt="Ammar Thaqif">
+    <h1>Ammar Thaqif</h1>
+    <p>Creative Thinker | Sports Lover | Music Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! and Assalamualaikum,<br><br>
+    My name is Ammar Thaqif Bin Ronzi. I was born on April 15, 2004, in Kuala Lumpur and currently live in Pandan Indah, Ampang. During my free time, I enjoy playing sports such as football and badminton. Besides that, I like listening to music and spending time with my friends, as I find it helps me relax and clear my mind. I come from a family of four siblings, and I am the third child, which makes me the second youngest. Among us, there are two boys, including myself, and two girls.</p>
+  </section>
+
+  <hr class="divider">
+
+  <section id="education">
+    <h2>My Education</h2>
+    <p>I began my primary education at SK Seri Bintang Utara and continued my secondary studies at SMK Seri Bintang Utara, Taman Shamelin, where I completed my SPM in 2021. After finishing school, I gained valuable work experience in the service and food industry by working as a waitress, barista, and kitchen assistant at a bakery.<br>
+    I was fortunate to be given the opportunity to pursue higher education at Universiti Teknologi MARA (UiTM) Rembau, where I enrolled in the Diploma in Information Management program. Alhamdulillah, I am currently in my final semester and am excited for the opportunities that lie ahead. </p> 
+    <ul>
+      <li>🎓 SK Seri Bintang Utara – Primary School</li>
+      <li>🏫 SMK Seri Bintang Utara – Secondary School</li>
+      <li>💻 Diploma in Information Management – UiTM Rembau</li>
+    </ul>
+    <img src="classmates.jpg" alt="Education Photo" class="edu-image">
+  </section>
+
+  <hr class="divider">
+
+  <section id="hobbies">
+  <h2>My Hobbies</h2>
+  <ul>
+    <li>Playing Football ⚽</li>
+    <li>Badminton 🏸</li>
+    <li>Listening to Music 🎧</li>
+    <li>Hanging Out with Friends 🧑‍🤝‍🧑</li>
+  </ul>
+  <img src="rembau.jpg" alt="My Hobbies" class="edu-image">
+  <img src="housemates.jpg" alt="My Hobbies" class="edu-image">
+</section>
+
+  <hr class="divider">
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: <a href="mailto:ammarthaqif24@gmail.com">ammarthaqif24@gmail.com</a></p>
+    <p>📷 Instagram: <a href="https://instagram.com/" target="_blank">@ammarthqf</a></p>
+    <p>📱 Phone: <a href="tel:+60182529337">+60 18-2529-337</a></p>
+    <a href="tel:+60182529337" class="btn">📲 Call Me</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ammar Thaqif. Designed with ❤️ and colors.</p>
+  </footer>
+
+</body>
+</html>
